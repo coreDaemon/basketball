@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Main title and subtitle
-st.title("🏀 NBA Player Tracker — Knicks vs Celtics 2025")
+st.title("🏀 NBA Player Tracker")
 st.caption("Computer vision system that can detect, track, and recognize NBA players during a game")
 
 # Custom CSS for centered tabs and larger font size
