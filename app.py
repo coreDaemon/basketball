@@ -80,10 +80,12 @@ with tab2:
         - **Real-time Analytics**: Provides instant insights on player performance
         
         **Technology Stack:**
-        - RF-DETR for object detection
-        - SAM2 for segmentation
-        - ResNet for classification
-        - Streamlit for the web interface
+        - **RF-DETR**: State-of-the-art object detection for players, jersey numbers, and basketball objects
+        - **SAM2**: Unified model for object segmentation and tracking across video frames
+        - **SmolVLM2**: Compact vision-language model for OCR of jersey numbers
+        - **ResNet**: Fine-tuned CNN for jersey number classification
+        - **SigLIP**: Vision-language model for generating visual similarity embeddings
+        - **K-means**: Clustering algorithm to separate players into teams based on embeddings
         
         Currently optimized for **Knicks vs Celtics 2025** broadcast footage.
         """)
@@ -107,9 +109,11 @@ st.sidebar.divider()
 st.sidebar.subheader("🤖 Model Information")
 st.sidebar.write("""
 - **Detection**: RF-DETR
-- **Segmentation**: SAM2
-- **Classification**: ResNet-50
-- **Tracking**: DeepSORT
+- **Segmentation & Tracking**: SAM2
+- **OCR**: SmolVLM2
+- **Classification**: ResNet
+- **Embeddings**: SigLIP
+- **Clustering**: K-means
 """)
 
 st.sidebar.divider()
@@ -132,4 +136,4 @@ with st.sidebar.expander("❓ FAQ"):
 
 # Footer
 st.markdown("---")
-st.caption("🏀 NBA Player Tracker — Powered by RF-DETR, SAM2, and Streamlit. © 2025")
+st.caption("🏀 NBA Player Tracker — Powered by RF-DETR, SAM2, SmolVLM2, ResNet, SigLIP & K-means. © 2025")
