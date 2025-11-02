@@ -124,7 +124,7 @@ with st.sidebar.expander("❓ FAQ"):
     A: MP4, AVI, MOV, MKV, WMV
     
     **Q: What's the maximum file size?**
-    A: 200MB recommended for best performance
+    A: 20MB recommended for best performance
     
     **Q: Can I analyze other games?**
     A: Currently optimized for Knicks vs Celtics 2025
